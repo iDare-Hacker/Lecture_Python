@@ -6,6 +6,78 @@
 #    factorial *= i
 #print("Factorial of", num, "is:", factorial)
 
+"""#role Number 008
+
+
+#program to find the grade of a student based on marks
+from statistics import mean
+
+
+
+
+marks = int(input("enter the marks from 0-100: "))
+
+
+if marks>=75 and marks <= 100:
+   grade = "distiction"
+elif marks>=60:
+   grade = "first class"
+elif marks>=50:
+   grade = "second class"
+elif marks>=35:
+   grade = "pass"
+elif marks>=0:
+   grade = "fail"
+else:
+   grade = "invalid input"
+
+
+print(grade)
+
+
+
+
+#find the greatest number among three numbers
+a = int(input("enter the number: "))
+b = int(input("enter the number: "))
+c = int(input("enter the number: "))
+
+
+print("The largest number is:", max(a, b, c))
+print("The largest number is:", mean([a, b, c]))
+
+
+#list1 = [a, b, c]
+#list1.sort()
+#print("The largest number is:", list1[-1])
+
+
+#------------------------------------
+#to find discount on train tickets
+#First point ask user weather railway employee or not
+#for railway employee discount is 30%
+#for others user if age is less than 18 20% discount
+#elif senior citizen age is greater than 60 25% discount
+# for rest 5 % discount
+
+
+is_railway_employee = input("Are you a railway employee? (yes/no): ")
+if is_railway_employee == "yes":
+   discount = 30
+else:
+   age = int(input("Enter your age: "))
+   if age < 18:
+       discount = 20
+   elif age > 60:
+       discount = 25
+   else:
+       discount = 5
+
+
+print(f"You are eligible for a discount of {discount}%.")
+
+"""
+
 
 """
 num = int(input("Enter a number: "))
