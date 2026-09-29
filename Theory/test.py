@@ -1,8 +1,4 @@
-x = 5
-y = 5.0
-
-print(type(y))
-print(type(x))
-
-print(x == 5)
-
+def describe_student(name, age, course): 
+    print(f"{name}, age {age}, studies {course}") 
+ 
+describe_student(course="Statistics", name="Zoya", age=19)   # order doesn't matter here
