@@ -10,3 +10,13 @@ for i in range(1, 31):
     if i % 3 == 0:
         continue
     print(i)
+
+
+correct_password = "python123"
+for attempt in range(1, 4):
+    entered = input(f"Attempt {attempt}: Enter password: ")
+    if entered == correct_password:
+        print("Access granted!")
+        break
+else:
+    print("Access denied -- too many attempts")
